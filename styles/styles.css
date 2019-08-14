@@ -3,3 +3,33 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+#header .nav-cont {
+    width: 100%;
+    background-color: #fff !important;
+}
+#header .nav-cont .container .navbar {
+    margin-bottom: unset;
+    border: unset;
+}
+#header .navbar-default .navbar-nav > li.dropdown:hover > a,
+#header .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+#header .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: #fff;
+    color: #555555;
+}
+#header li.dropdown:hover > .dropdown-menu {
+    display: block;
+ }
+
+ .page-hero{
+     background-image: url("images/master-header-bg.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+ }
+ .page-hero-lg{
+     height: 100vh;
+     max-height: 870px;
+ }
